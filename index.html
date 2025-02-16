@@ -1,0 +1,120 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The CookBook</title>
+    <link rel="icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="search-page">
+        <div>
+            <h1 class="search-heading">What do you want to cook today?</h1>
+
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="type here...." maxlength="80">
+                <button class="search-btn" onclick="image()">Start Cooking</button>
+            </div>
+            <div class="alertbox d-flex justify-content-center">
+                <p class="alert animate__animated animate__fadeInUp"><i class="fa-solid fa-triangle-exclamation"></i>
+                    Wow, really? You couldn't think of a recipe name?</p>
+            </div>
+
+        </div>
+        <footer>Made by Roshan
+                Kumar</a></footer>
+    </div>
+
+    <div class="loader">
+        <img src="loader-2_food.gif">
+    </div>
+
+    <section class="container animate__animated animate__fadeIn animate__delay-0.2s">
+
+        <header>
+            <div class="close">
+                <button class="search-btn close-btn"><i class="fa-solid fa-arrow-left"></i> back</button>
+            </div>
+            <img id="local" alt="4.webp" class="main-img">
+            <div class="description">
+                <h1 class="heading">Berry Acai Bowl</h1>
+                <h5 class="source"><i class="fa-solid fa-link"></i> Source: The CookBook</h5>
+                <div class="samefont">
+                    <div class="about">
+                        <ul>
+                            <li class="star">
+                            </li>
+                            <li><i class="fa-solid fa-kitchen-set"></i> <span class="cook-time"></span></li>
+
+                        </ul>
+                    </div>
+                    <div class="badges">
+                        <span class="badge text-bg-success">Breakfast</span>
+                        <span class="badge text-bg-success">Healthy</span>
+                        <span class="badge text-bg-success">Lunch</span>
+                        <span class="badge text-bg-success">Smoothies</span>
+                        <span class="badge text-bg-success">Vegetarian</span>
+                    </div>
+                    <h4 class="second">Description</h4>
+                    <div class="slider"></div>
+                    <p class="recipe-description">Perfect healty breakfast for easy mornings.
+                        Acai bowls loaded with toppings - yum!
+                        Thanks to their high antioxidant content,
+                        acai berris have many potential health benefits.
+                        They're loaded with powerful plant compounds
+                        that act as antioxidants and could have benefits
+                        for your brain heart and overall health.</p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="ingredients">
+                <h4 class="second">Ingredients</h4>
+                <div class="slider"></div>
+                <div class="mid">
+                    <h5><i class="fa-solid fa-check"></i> Tap to complete ingredients</h5>
+
+                </div>
+                <div class="smoothi">
+                    <ul class="recipe-ingredients">
+                    </ul>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="method">
+                <h4 class="second">Method</h4>
+                <div class="slider"></div>
+                <div class="mid">
+                    <h5><i class="fa-solid fa-check"></i> Tap to complete method</h5>
+                </div>
+
+                <div>
+                    <ol class="prep">
+                        <li><span>1.</span>put all the smoothi ingredients into a blender</li>
+                        <li><span>2.</span>if the mixture is having trouble blending and more almond milk or water</li>
+                        <li><span>3.</span>blind for 2 2 3 minutes or until the smoothi has no longer lamps for the Modi
+                            mixture into a bowl</li>
+                        <li><span>4.</span>top with desire ingredients</li>
+                        <li><span>5.</span>serve and enjoy</li>
+                    </ol>
+                </div>
+            </div>
+        </main>
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/c704a5a22b.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
